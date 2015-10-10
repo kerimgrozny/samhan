@@ -1,0 +1,79 @@
+html {
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+
+body {
+	background-color: grey;
+}
+
+#navbar {
+	background-color: grey;
+	border: 0px;
+	margin: 0px auto;
+	min-height: 200px;
+	background-image:url(../images/backgrounds/caucasmountain.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: auto 296px;
+}
+
+#brand{
+	width: 181px;
+	margin-left: 350px;
+}
+
+#headerListItems ul li, #headerListItems a{
+	color: #ECECEC;
+}
+
+#mainList {
+	opacity: 0.8;
+}
+
+.container {
+	background-color: #fff;
+	min-height: 100%;
+
+}
+
+#content {
+	margin: 1px auto;
+}
+
+#footer {
+	background-color: #4A6A8A;
+	color: #FFFFFF;
+	text-align:center;
+	border: 0px;
+}
+
+@media screen and (min-width: 760px) {
+	#mainList{
+		margin-left: 40%;
+	}
+}
+
+@media screen and (max-width: 1097px) {
+	#mainList{
+		margin-left: 20%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#mainList{
+		margin-left: 0%;
+	}
+}
+
+
+ul {
+	list-style-type: none;	
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+

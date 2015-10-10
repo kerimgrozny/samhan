@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 760px) {
+	#mainList{
+		margin-left: 40%;
+	}
+}
+
+@media screen and (max-width: 1097px) {
+	#mainList{
+		margin-left: 20%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#mainList{
+		margin-left: 0%;
+	}
+}
+

@@ -1,0 +1,98 @@
+/* products style */
+.glyphicon { margin-right:5px; }
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd)
+{
+    background: #eeeeee;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img
+{
+    float: left;
+}
+.item.list-group-item:after
+{
+    clear: both;
+}
+.list-group-item-text
+{
+    margin: 0 0 11px;
+}
+
+/* custom styles */
+
+/* if windows is larger than 1200px */
+@media only screen and (min-width: 1200px) {
+    p{
+        font-size: 1.2em;
+    }
+}
+
+#indexProdItems img {
+	padding: 10px;	
+}
+
+/* typography styles */
+#content h1,h2,h3,h4,h5 {
+	margin: 25px 0;	
+}
+
+.center {
+	text-align: center;
+}
+
+p {
+	margin: 25px;	
+}
+
+#brand {
+	font-size: 120%;	
+}
+
+/* main navbar ul */
+#navbarList {
+	background-color: #4A6A8A;
+}
+
+/* main navbar items */
+#navbarList li:hover {
+	background-color: #29527A;
+}
